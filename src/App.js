@@ -1,7 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-var param = 300;
+var param = 500;
 var parameters = {
   "particles": {
       "number": {
@@ -16,11 +16,11 @@ var parameters = {
           "opacity": 0.1
       },
       "move": {
-          "direction": "left",
-          "speed": 0.1
+          "direction": "none",
+          "speed": 0.5
       },
       "size": {
-          "value": 3
+          "value": 2
       },
       "opacity": {
           "anim": {
@@ -56,18 +56,13 @@ var parameters = {
   "retina_detect": true
 }
 
-var paragraph = <p> You vexed shy mirth now noise. Talked him people 
-  valley add use her depend letter. Allowance too applauded now way 
-  something recommend. Mrs age men and trees jokes fancy. Gay pretended 
-  engrossed eagerness continued ten. Admitting day him contained 
-  unfeeling attention mrs out. 
-  <br />
-  Extremity direction existence as dashwoods do up. Securing marianne 
-  led welcomed offended but offering six raptures. Conveying concluded 
-  newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. 
-  Occasional continuing possession we insensible an sentiments as is. 
-  Law but reasonably motionless principles she. Has six worse downs 
-  far blush rooms above stood.
+var paragraph = <p>
+  My name is Adil and I'm a software engineer. <br/><br/>
+  As of recently, I have graduated from the University of South Florida with
+  the CS degree where I gained a solid foundation in algorithms and data structures. <br/><br/>
+  My industry experience incudes REST API development and big data engineering. Also, 
+  I have taken considerable amount of time to learn front end development on my own.
+  You can check out my sample front end work right below:  
 </p>;
 
   class App extends React.Component {
@@ -78,7 +73,7 @@ var paragraph = <p> You vexed shy mirth now noise. Talked him people
     return(
       <div>
         <img alt="profile pic" src={this.state.img} 
-        onMouseOver={()=>{this.setState({img: "icon.png"})}} 
+        onMouseOver={()=>{this.setState({img: "avatarPup.png"})}} 
         onMouseOut={() => {this.setState({img:"avatar.jpg"})}} className="profilePic"/>
         <a className="git" rel="noopener noreferrer" href="https://github.com/adilnomad" target="_blank">
         <img alt="github link" src="https://cdn0.iconfinder.com/data/icons/social-line-transparent/50/Github-line-transparent-512.png" className="git"/>
@@ -93,7 +88,15 @@ var paragraph = <p> You vexed shy mirth now noise. Talked him people
         </a>
         <div className="message">
           <h1>Hello!<span role="img">🙂</span> </h1>
-          {paragraph}
+          <p className="mess">{paragraph}</p>
+          <a href="https://adilnomad.github.io/gol/" target="_blank" rel="noopener noreferrer" className="links1">
+          <img alt="linkedin link" 
+            src="glider.gif" className="git"/>
+          </a>
+          <a href="https://filmposterlookup.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="links2">
+          <img alt="linkedin link" 
+            src="poster.jpg" className="git"/>
+          </a>
         </div>
         <Particles params={parameters}/>
       </div>
