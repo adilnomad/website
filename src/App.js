@@ -60,7 +60,7 @@ var paragraph = <p>
   My name is Adil and I'm a software engineer. <br/><br/>
   As of recently, I have graduated from the University of South Florida with
   the CS degree where I gained a solid foundation in algorithms and data structures. <br/><br/>
-  My industry experience incudes REST API development and big data engineering. Also, 
+  My industry experience includes REST API development and big data engineering. Also, 
   I have taken considerable amount of time to learn front end development on my own.
   You can check out my sample front end work right below:  
 </p>;
