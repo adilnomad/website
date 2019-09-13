@@ -93,9 +93,9 @@ var paragraph = <p>
           <img alt="linkedin link" 
             src="glider.gif" className="git"/>
           </a>
-          <a href="https://filmposterlookup.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="links2">
+          <a href="https://adilnomad.github.io/sortingVisualizer/" target="_blank" rel="noopener noreferrer" className="links2">
           <img alt="linkedin link" 
-            src="poster.jpg" className="git"/>
+            src="sorting.gif" className="git"/>
           </a>
         </div>
         <Particles params={parameters}/>
