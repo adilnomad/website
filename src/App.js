@@ -1,6 +1,26 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="mess">
+          Updating ... 
+        </h1>
+      </div>
+    );
+  }
+
+}
+
+export default App;
+
+/*
+
+import React from 'react';
+import Particles from 'react-particles-js';
+
 var param = 500;
 var parameters = {
   "particles": {
@@ -60,9 +80,6 @@ var paragraph = <p>
   My name is Adil and I'm a software engineer. <br/><br/>
   As of recently, I have graduated from the University of South Florida with
   the CS degree where I gained a solid foundation in algorithms and data structures. <br/><br/>
-  My industry experience includes REST API development and big data engineering. Also, 
-  I have taken considerable amount of time to learn front end development on my own.
-  You can check out my sample front end work right below:  
 </p>;
 
   class App extends React.Component {
@@ -89,14 +106,6 @@ var paragraph = <p>
         <div className="message">
           <h1>Hello!<span role="img">🙂</span> </h1>
           <p className="mess">{paragraph}</p>
-          <a href="https://adilnomad.github.io/gol/" target="_blank" rel="noopener noreferrer" className="links1">
-          <img alt="linkedin link" 
-            src="glider.gif" className="git"/>
-          </a>
-          <a href="https://adilnomad.github.io/sortingVisualizer/" target="_blank" rel="noopener noreferrer" className="links2">
-          <img alt="linkedin link" 
-            src="sorting.gif" className="git"/>
-          </a>
         </div>
         <Particles params={parameters}/>
       </div>
@@ -104,3 +113,5 @@ var paragraph = <p>
   }
 }
 export default App;
+
+*/
