@@ -1,25 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1 className="mess">
-          Updating ... 
-        </h1>
-      </div>
-    );
-  }
-
-}
-
-export default App;
-
-/*
-
-import React from 'react';
-import Particles from 'react-particles-js';
 
 var param = 500;
 var parameters = {
@@ -78,14 +59,16 @@ var parameters = {
 
 var paragraph = <p>
   My name is Adil and I'm a software engineer. <br/><br/>
-  As of recently, I have graduated from the University of South Florida with
-  the CS degree where I gained a solid foundation in algorithms and data structures. <br/><br/>
+  As of right now, I'm working on an android apps at Google.<br/><br/>
+  As of May, graduated from the University of South Florida with the CS degree 
+  where I gained a solid foundation in algorithms and data structures. <br/><br/>
 </p>;
 
   class App extends React.Component {
   state = {
     img: "avatar.jpg"
   }
+  
   render() {
     return(
       <div>
@@ -113,5 +96,3 @@ var paragraph = <p>
   }
 }
 export default App;
-
-*/
