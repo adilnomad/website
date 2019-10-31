@@ -59,7 +59,7 @@ var parameters = {
 
 var paragraph = <p>
   My name is Adil and I'm a software engineer. <br/><br/>
-  As of right now, I'm working on an android apps at Google.<br/><br/>
+  As of right now, I'm working on an android apps at Google as a contractor.<br/><br/>
   Graduated from the University of South Florida with the CS degree in May. <br/><br/>
 </p>;
 
